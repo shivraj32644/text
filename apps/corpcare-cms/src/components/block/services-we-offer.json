@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_services_we_offers",
+  "info": {
+    "displayName": "services We Offer",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "displayName": "Service Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-card"
+    },
+    "subHeadingParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

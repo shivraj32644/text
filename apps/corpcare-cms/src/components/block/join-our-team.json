@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_block_join_our_teams",
+  "info": {
+    "displayName": "Join Our Team",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "positions": {
+      "displayName": "position",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.position"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

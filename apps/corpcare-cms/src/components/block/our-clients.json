@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_our_clients",
+  "info": {
+    "displayName": "Our Clients",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "Clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.clients-card"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_explore_aif_and_pms_funds",
+  "info": {
+    "displayName": "Explore AIF and PMS Funds",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "fundTabs": {
+      "displayName": "fundTabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.fund-tabs"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

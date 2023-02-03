@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "webinars",
+  "info": {
+    "singularName": "webinar",
+    "pluralName": "webinars",
+    "displayName": "Webinar Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.hero",
+      "required": true
+    },
+    "upcomingWebinars": {
+      "type": "component",
+      "repeatable": false,
+      "component": "miscellaneous.webinars-card",
+      "required": true
+    },
+    "previousWebinars": {
+      "type": "component",
+      "repeatable": false,
+      "component": "miscellaneous.webinars-card",
+      "required": true
+    },
+    "stayTuned": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.stay-tuned",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

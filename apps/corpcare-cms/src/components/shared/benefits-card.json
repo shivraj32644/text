@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_benefits_cards",
+  "info": {
+    "displayName": "Benefits Card",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "cardHeading": {
+      "type": "text",
+      "required": true
+    },
+    "cardImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

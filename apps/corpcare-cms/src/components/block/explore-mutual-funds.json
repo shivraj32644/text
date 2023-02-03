@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_explore_mutual_funds",
+  "info": {
+    "displayName": "Explore Mutual Funds",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

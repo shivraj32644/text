@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_why_corpcare_is_differents",
+  "info": {
+    "displayName": "Why Corpcare is Different",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "whyCorpcareCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    }
+  }
+}

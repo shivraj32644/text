@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_work_life_at_corp_cares",
+  "info": {
+    "displayName": "Work Life at CorpCare",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "workLifeAtCorpCareData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.custom-section"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

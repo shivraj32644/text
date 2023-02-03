@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "card": {
+      "displayName": "Benefits Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.benefits-card",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

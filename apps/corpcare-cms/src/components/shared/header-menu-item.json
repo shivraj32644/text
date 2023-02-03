@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_header_menu_items",
+  "info": {
+    "displayName": "Header Menu Item",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "subHeading": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

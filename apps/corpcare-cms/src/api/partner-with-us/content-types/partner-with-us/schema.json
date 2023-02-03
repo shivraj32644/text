@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "partner_with_uses",
+  "info": {
+    "singularName": "partner-with-us",
+    "pluralName": "partner-with-uses",
+    "displayName": "Partner with us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.partner-with-us-hero",
+        "block.partner-with-us-form",
+        "block.faq",
+        "block.benefits",
+        "block.how-can-we-help-you",
+        "block.treasury-management",
+        "block.the-process-we-follow"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

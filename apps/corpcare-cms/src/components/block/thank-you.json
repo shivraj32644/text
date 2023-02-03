@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_block_thank_you_s",
+  "info": {
+    "displayName": "Thank You ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "shared.link"
+    },
+    "backgroundImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_card_with_points",
+  "info": {
+    "displayName": "cardWithPoints",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.bullet-points"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_miscellaneous_figures",
+  "info": {
+    "displayName": "Miscellaneous Figure",
+    "icon": "lock-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "Top-Left",
+        "Top-Right",
+        "Bottom-Left",
+        "Bottom-Right",
+        "Center-Left",
+        "Center-Right"
+      ],
+      "required": true
+    },
+    "figure": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

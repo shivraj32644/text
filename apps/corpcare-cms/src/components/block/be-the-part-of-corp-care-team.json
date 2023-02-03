@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_block_be_the_part_of_corp_care_teams",
+  "info": {
+    "displayName": "Be the part of CorpCare team",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "beThePartOfCorpCareData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.custom-section",
+      "required": true
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

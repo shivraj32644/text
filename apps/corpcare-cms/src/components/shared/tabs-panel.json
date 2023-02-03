@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_tabs_panels",
+  "info": {
+    "displayName": "Tabs Panel",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabPanelHeading": {
+      "type": "string",
+      "required": true
+    },
+    "tabPanelImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "tabPanelCardHeading": {
+      "type": "text",
+      "required": true
+    },
+    "productFeatures": {
+      "type": "richtext",
+      "required": true
+    },
+    "productButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    },
+    "buttonTheme": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary"],
+      "default": "primary",
+      "required": true
+    }
+  }
+}

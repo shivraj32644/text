@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_browse_help_topics",
+  "info": {
+    "displayName": "Browse Help Topics",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "help_topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::help-topic.help-topic"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

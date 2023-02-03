@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_block_col_tabs",
+  "info": {
+    "displayName": "Col Tabs",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "tabs": {
+      "displayName": "Col Tabs Panel",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.col-tabs-panel",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

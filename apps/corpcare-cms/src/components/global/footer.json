@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "footerLabel": {
+      "type": "text",
+      "required": true
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-networks",
+      "required": true
+    },
+    "footerColumns": {
+      "displayName": "Footer Columns",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-columns",
+      "required": true
+    },
+    "footerBottomLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    },
+    "footerImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "thank_yous",
+  "info": {
+    "singularName": "thank-you",
+    "pluralName": "thank-yous",
+    "displayName": "Thank You"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": ["block.thank-you"],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_block_our_partners",
+  "info": {
+    "displayName": "Our Partners",
+    "icon": "restroom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "Theme": {
+      "type": "enumeration",
+      "enum": ["Main Page Background", "White"],
+      "default": "Main Page Background"
+    },
+    "PartnerImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

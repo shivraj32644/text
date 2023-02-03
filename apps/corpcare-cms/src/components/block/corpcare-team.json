@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_block_corpcare_teams",
+  "info": {
+    "displayName": "Corpcare Team",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subHeadingParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part",
+      "required": true
+    },
+    "teamCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    },
+    "headingParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_block_stay_tuneds",
+  "info": {
+    "displayName": "Stay Tuned",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "searchBox": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "miscellaneous.input"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

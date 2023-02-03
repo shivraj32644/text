@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_clients_cards",
+  "info": {
+    "displayName": "Clients Card",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1,
+      "required": false
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "authorName": {
+      "type": "string",
+      "required": true
+    },
+    "authorDesignation": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

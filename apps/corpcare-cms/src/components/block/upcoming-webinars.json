@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_block_upcoming_webinars",
+  "info": {
+    "displayName": "Upcoming Webinars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "text",
+      "required": true
+    },
+    "upcoming_webinars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::webinar-data.webinar-data"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

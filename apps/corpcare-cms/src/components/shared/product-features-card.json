@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_product_features_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardHeading": {
+      "type": "text",
+      "required": true
+    },
+    "cardDescription": {
+      "type": "text",
+      "required": true
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "cardContent": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

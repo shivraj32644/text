@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "fixed_deposit",
+  "info": {
+    "singularName": "fixed-deposits",
+    "pluralName": "fixed-deposit",
+    "displayName": "Fixed Deposits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.col-tabs",
+        "block.why-corpcare-is-different",
+        "block.faq",
+        "block.our-partners",
+        "block.cta"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

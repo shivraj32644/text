@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_product_features",
+  "info": {
+    "displayName": "Product Features",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "productCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    },
+    "subHeadingParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

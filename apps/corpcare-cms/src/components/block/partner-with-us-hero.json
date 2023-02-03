@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_block_partner_with_us_heroes",
+  "info": {
+    "displayName": "Partner With Us Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    },
+    "partnerImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

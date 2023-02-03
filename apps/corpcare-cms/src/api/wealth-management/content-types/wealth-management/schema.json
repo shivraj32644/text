@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "wealth_managements",
+  "info": {
+    "singularName": "wealth-management",
+    "pluralName": "wealth-managements",
+    "displayName": "Wealth Management",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.about-card",
+        "block.how-can-we-help-you",
+        "block.our-clients",
+        "block.whom-we-serve",
+        "block.our-partners",
+        "block.related-insights"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

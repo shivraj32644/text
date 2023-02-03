@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "projects": {
+    "admin-webapp": "apps/admin-webapp",
+    "client-webapp": "apps/client-webapp",
+    "corpcare-cms": "apps/corpcare-cms",
+    "rm-webapp": "apps/rm-webapp",
+    "shared-api": "libs/shared/api",
+    "web-ui": "libs/web/ui",
+    "website": "apps/website"
+  }
+}

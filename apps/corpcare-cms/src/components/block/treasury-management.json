@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_treasury_managements",
+  "info": {
+    "displayName": "Treasury Management",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.custom-section",
+      "required": true
+    },
+    "rightSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.custom-section",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

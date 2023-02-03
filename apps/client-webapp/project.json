@@ -1,0 +1,65 @@
+{
+  "sourceRoot": "apps/client-webapp",
+  "projectType": "application",
+  "targets": {
+    "type-check": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn run tsc -b apps/client-webapp/tsconfig.json"
+      }
+    },
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/client-webapp",
+        "outputPath": "dist/apps/client-webapp"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "client-webapp:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "client-webapp:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "client-webapp:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "client-webapp:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/client-webapp"],
+      "options": {
+        "jestConfig": "apps/client-webapp/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/client-webapp/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_other_services_s",
+  "info": {
+    "displayName": "Other Services ",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "Other Services Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.other-services-card",
+      "required": true,
+      "max": 4
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

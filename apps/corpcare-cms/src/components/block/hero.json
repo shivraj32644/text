@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "yin-yang",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

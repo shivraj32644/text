@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_disclosures",
+  "info": {
+    "displayName": "Disclosure",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "disclosureHeading": {
+      "type": "text",
+      "required": true
+    },
+    "disclosureDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

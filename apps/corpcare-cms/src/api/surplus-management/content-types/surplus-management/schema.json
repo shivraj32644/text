@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "surplus_managements",
+  "info": {
+    "singularName": "surplus-management",
+    "pluralName": "surplus-managements",
+    "displayName": "Surplus Management",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.benefits",
+        "block.whom-we-serve",
+        "block.how-can-we-help-you",
+        "block.about-card",
+        "block.hero",
+        "block.related-insights"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

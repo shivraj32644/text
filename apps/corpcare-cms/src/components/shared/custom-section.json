@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_custom_sections",
+  "info": {
+    "displayName": "CustomSection",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "subheading": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "content": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

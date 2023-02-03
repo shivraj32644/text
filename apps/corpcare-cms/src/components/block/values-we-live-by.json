@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_values_we_live_bies",
+  "info": {
+    "displayName": "Values We Live By",
+    "icon": "hand-holding-heart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_webinars_cards",
+  "info": {
+    "displayName": "Webinars Card",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "subHeading": {
+      "type": "string",
+      "required": false
+    },
+    "webinarType": {
+      "type": "enumeration",
+      "enum": ["previous", "upcoming"],
+      "required": true
+    }
+  }
+}

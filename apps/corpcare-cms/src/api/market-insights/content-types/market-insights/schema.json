@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "market_insight",
+  "info": {
+    "singularName": "market-insights",
+    "pluralName": "market-insight",
+    "displayName": "Market Insights",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": ["block.hero"],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

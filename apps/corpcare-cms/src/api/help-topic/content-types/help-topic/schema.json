@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "help_topics",
+  "info": {
+    "singularName": "help-topic",
+    "pluralName": "help-topics",
+    "displayName": "Help Topics",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "helpingTopic": {
+      "displayName": "Helping Topic",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.helping-topic",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "heading",
+      "required": true
+    }
+  }
+}

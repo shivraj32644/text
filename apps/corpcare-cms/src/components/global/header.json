@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_global_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "authButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": false
+    },
+    "headerMenuList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header-menu-list",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_bullet_points",
+  "info": {
+    "displayName": "bulletPoints",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

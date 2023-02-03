@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_block_query_supports",
+  "info": {
+    "displayName": "Query Support",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "modalHeading": {
+      "type": "string",
+      "required": true
+    },
+    "queryForm": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "mutual_fund",
+  "info": {
+    "singularName": "mutual-funds",
+    "pluralName": "mutual-fund",
+    "displayName": "Mutual Funds",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.col-tabs",
+        "block.hero",
+        "block.product-features",
+        "block.the-way-it-works",
+        "block.our-partners",
+        "block.cta",
+        "block.faq",
+        "block.explore-mutual-funds"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

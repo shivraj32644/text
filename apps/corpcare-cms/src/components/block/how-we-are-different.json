@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_block_how_we_are_differents",
+  "info": {
+    "displayName": "HowWeAreDifferent",
+    "icon": "not-equal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card"
+    }
+  }
+}

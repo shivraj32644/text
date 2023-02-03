@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_data",
+  "info": {
+    "singularName": "form-data-single",
+    "pluralName": "form-data",
+    "displayName": "FormData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formName": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "json",
+      "required": true
+    },
+    "formOrigin": {
+      "type": "enumeration",
+      "enum": [
+        "contact-us",
+        "partner-with-us",
+        "stay-tuned",
+        "query-support",
+        "webinar-register",
+        "request-demo",
+        "join-us"
+      ],
+      "required": true
+    }
+  }
+}

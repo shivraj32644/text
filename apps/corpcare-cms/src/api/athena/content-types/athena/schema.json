@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "athenas",
+  "info": {
+    "singularName": "athena",
+    "pluralName": "athenas",
+    "displayName": "Athena",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.our-partners",
+        "block.about-card",
+        "block.why-corpcare-is-different",
+        "block.fund-managers",
+        "block.faq",
+        "block.cta",
+        "block.upcoming-webinars",
+        "block.explore-aif-and-pms-funds"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

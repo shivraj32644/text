@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_careers_heroes",
+  "info": {
+    "displayName": "Careers Hero",
+    "icon": "suitcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "careerHeroData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.custom-section"
+    }
+  }
+}

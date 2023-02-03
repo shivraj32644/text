@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_block_the_process_we_follow_s",
+  "info": {
+    "displayName": "The Process We Follow ",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": ["black", "white"],
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_col_tabs_panels",
+  "info": {
+    "displayName": "Col Tabs Panel"
+  },
+  "options": {},
+  "attributes": {
+    "panelHeading": {
+      "type": "text",
+      "required": true
+    },
+    "panelDescription": {
+      "type": "text",
+      "required": true
+    },
+    "panelImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "panelIcon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

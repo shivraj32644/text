@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "help_and_supports",
+  "info": {
+    "singularName": "help-and-support",
+    "pluralName": "help-and-supports",
+    "displayName": "Help & Support",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.browse-help-topics",
+        "block.careers-hero",
+        "block.query-support"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

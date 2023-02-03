@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_news_cards",
+  "info": {
+    "displayName": "News Card"
+  },
+  "options": {},
+  "attributes": {
+    "publishDate": {
+      "type": "date",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["investment"],
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "cardImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "newsLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

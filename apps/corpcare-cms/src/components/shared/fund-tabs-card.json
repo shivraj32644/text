@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_shared_fund_tabs_cards",
+  "info": {
+    "displayName": "fundTabsCard",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "fundTabsIcon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "fundTabsTitle": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    },
+    "one_month": {
+      "type": "text",
+      "required": true
+    },
+    "six_month": {
+      "type": "text",
+      "required": true
+    },
+    "one_year": {
+      "type": "text",
+      "required": true
+    },
+    "three_year": {
+      "type": "text",
+      "required": true
+    },
+    "five_year": {
+      "type": "text",
+      "required": true
+    },
+    "since_inception": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

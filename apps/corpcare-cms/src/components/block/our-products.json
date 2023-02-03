@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_our_products",
+  "info": {
+    "displayName": "Our Products",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "productPanel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tabs-panel",
+      "required": true
+    },
+    "subHeadingInParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

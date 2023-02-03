@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_miscellaneous_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["text", "tel", "textarea", "file"],
+      "required": true
+    },
+    "validations": {
+      "type": "json"
+    },
+    "validationType": {
+      "type": "enumeration",
+      "enum": ["string", "number"],
+      "required": true
+    }
+  }
+}

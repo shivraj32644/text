@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_contact_us_cards",
+  "info": {
+    "displayName": "Contact Us Cards",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.custom-section"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

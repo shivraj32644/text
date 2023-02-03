@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_block_why_corp_care_for_fixed_incomes",
+  "info": {
+    "displayName": "Why CorpCare for fixed income",
+    "icon": "money-bill-wave-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "displayName": "cardWithPoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card-with-points"
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

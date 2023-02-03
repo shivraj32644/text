@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_block_news",
+  "info": {
+    "displayName": "News",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subHeadingParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.subheading-part",
+      "required": true
+    },
+    "NewsCard": {
+      "displayName": "News Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.news-card",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure",
+      "required": false
+    }
+  }
+}

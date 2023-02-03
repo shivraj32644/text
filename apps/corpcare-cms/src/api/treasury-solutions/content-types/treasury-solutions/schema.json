@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "treasury_solution",
+  "info": {
+    "singularName": "treasury-solutions",
+    "pluralName": "treasury-solution",
+    "displayName": "Treasury Solutions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.how-can-we-help-you",
+        "block.news",
+        "block.whom-we-serve",
+        "block.treasury-management",
+        "block.related-insights"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

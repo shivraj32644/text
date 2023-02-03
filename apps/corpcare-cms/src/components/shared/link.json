@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "text",
+      "required": true
+    },
+    "label": {
+      "type": "text",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": ["_blank"]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "linkImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary"],
+      "default": "primary"
+    }
+  }
+}

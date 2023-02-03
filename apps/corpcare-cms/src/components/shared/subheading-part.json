@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_subheading_parts",
+  "info": {
+    "displayName": "Subheading Part",
+    "icon": "plane-departure"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": ["black", "white", "brand", "brandLight"],
+      "required": true
+    }
+  }
+}

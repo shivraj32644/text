@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_partner_with_us_forms",
+  "info": {
+    "displayName": "Partner With Us Form",
+    "icon": "parking",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "partnersCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.clients-card"
+    },
+    "partnerForm": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    }
+  }
+}

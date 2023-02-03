@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "lending_solution",
+  "info": {
+    "singularName": "lending-solutions",
+    "pluralName": "lending-solution",
+    "displayName": "Lending Solutions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.hero",
+        "block.about-card",
+        "block.why-corpcare-is-different",
+        "block.our-partners",
+        "block.cta",
+        "block.related-insights",
+        "block.the-process-we-follow"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

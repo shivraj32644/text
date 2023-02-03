@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_helping_topics",
+  "info": {
+    "displayName": "Helping Topic",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "helpTopicHeading": {
+      "type": "string",
+      "required": true
+    },
+    "helpTopicImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "helpTopicFAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.disclosure",
+      "required": true
+    }
+  }
+}

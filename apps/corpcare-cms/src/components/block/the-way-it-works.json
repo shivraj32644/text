@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_block_the_way_it_works",
+  "info": {
+    "displayName": "The Way It Works",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-features-card",
+      "required": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": ["black", "white"],
+      "default": "black",
+      "required": true
+    },
+    "miscellaneousFigure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.miscellaneous-figure"
+    }
+  }
+}

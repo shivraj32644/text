@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_fund_tabs",
+  "info": {
+    "displayName": "fundTabs",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "fundTabsCard": {
+      "displayName": "fundTabsCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.fund-tabs-card",
+      "required": true,
+      "max": 6,
+      "min": 1
+    }
+  }
+}
